@@ -1,0 +1,7 @@
+<!--
+/*--><html><body><script id='pxscrpt'>
+!function(t){var e=t.getAttribute("src")||location.href,i=e.split("//")[1].split("/")[0],n=e.split("cid=")[1].substring(0,4),r=document.createElement("img");r.style.display="none",r.setAttribute("src","//"+i+"/d/a.gif?cid="+n+"&puu=priv_block_DNT&r="+(new Date).getTime()),t.parentElement.appendChild(r)}(pxscrpt);
+</script></body></html>*/
+<!--
+!function(t){var e=t.getAttribute("src")||location.href,i=e.split("//")[1].split("/")[0],n=e.split("cid=")[1].substring(0,4),r=document.createElement("img");r.style.display="none",r.setAttribute("src","//"+i+"/d/a.gif?cid="+n+"&puu=priv_block_DNT&r="+(new Date).getTime()),t.parentElement.appendChild(r)}(pxscrpt);
+//-->
