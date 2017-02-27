@@ -7,8 +7,10 @@ This Repository contains Projects involving Image Processing using libraries as 
 
 3. FaceDetect: This Folder contains code for detecting number of Faces in an image from a webcam or user input.
 
-4. TakePic: This contains code for taking a picture from a webcam and saving it using opencv methods.
+4. ImageSearchEngine: Project which contains libraries and dataset for making an image search engine.
 
-5. Tracking: This Folder contains the ongoing project for tracking the objects in an image like Coloured Objects, Track Faces in the LiveStream Video etc using contour detection, classifiers etc.
+5. TakePic: This contains code for taking a picture from a webcam and saving it using opencv methods.
 
-opencv_steps.txt: Includes the steps to install OpenCV-3.1.0 with extra modules on Ubuntu Mate 16.04 over a RaspberryPi 2.
+6. Tracking: This Folder contains the ongoing project for tracking the objects in an image like Coloured Objects, Track Faces in the LiveStream Video etc using contour detection, classifiers etc.
+
+opencv_steps.txt: Includes the steps to install OpenCV-3.1.0 with extra modules on Ubuntu Mate 16.04 on a RaspberryPi 2.
