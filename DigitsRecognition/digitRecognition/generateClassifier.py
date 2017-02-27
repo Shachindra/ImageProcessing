@@ -1,13 +1,15 @@
 # Import the modules
 from sklearn.externals import joblib
-from sklearn import datasets
+#from sklearn import datasets
+from sklearn.datasets import fetch_mldata
 from skimage.feature import hog
 from sklearn.svm import LinearSVC
 import numpy as np
 from collections import Counter
 
 # Load the dataset
-dataset = datasets.fetch_mldata("MNIST Original")
+#dataset = datasets.fetch_mldata('MNIST original', data_home='./')
+dataset = fetch_mldata('MNIST original', data_home='./')
 
 # Extract the features and labels
 features = np.array(dataset.data, 'int16') 
@@ -20,7 +22,7 @@ for feature in features:
     list_hog_fd.append(fd)
 hog_features = np.array(list_hog_fd, 'float64')
 
-print "Count of digits in dataset", Counter(labels)
+print ("Count of digits in dataset"+str(Counter(labels)))
 
 # Create an linear SVM object
 clf = LinearSVC()
