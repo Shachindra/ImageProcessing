@@ -1,5 +1,5 @@
 # Usage
-# python seam_carving.py --image bryce_canyon.jpg
+# python SeamCarving.py --image bryce_canyon.jpg
 
 # import the necessary packages
 from skimage import transform

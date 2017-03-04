@@ -1,4 +1,5 @@
-#python detect_barcode.py --image images/barcode_01.jpg
+# Usage
+# python BarcodeDetection.py --image BarcodeImages/barcode_01.jpg
 
 # import the necessary packages
 import numpy as np
@@ -63,10 +64,10 @@ if(len(cnts) > 0):
 	box = np.int0(cv2.boxPoints(rect))
 	
 	# draw a bounding box arounded the detected barcode and display the image
-	cv2.drawContours(image, [box], -1, (0, 255, 0), 1)
+	cv2.drawContours(image, [box], -1, (0, 255, 0), 2)
 	cv2.imshow("Barcode Detected", image)
-
 	#cv2.imwrite("barcodedetected.jpg", image)
+
 	cv2.waitKey(0)
 	cv2.destroyAllWindows()
 elif(len(cnts) == 0):
