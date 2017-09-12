@@ -75,6 +75,6 @@ python3
 >>> import cv2
 >>> cv2.__version__
 '3.3.0'
-exit()
+>>> exit()
 
 If you are able to see '3.3.0' as output you have successfully installed OpenCV on the RaspberryPi and are ready to start your Image Processing Adventures.
